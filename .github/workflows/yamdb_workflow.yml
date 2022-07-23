@@ -43,7 +43,7 @@ jobs:
         with:
           context: ./api_yamdb/
           push: true
-          tags: djey4/yamdb_final:v1
+          tags: djey4/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
